@@ -64,7 +64,7 @@ public class Matrices {
     return rotatedMatrix;
 
   }
-  static int N = 4;
+  private static int N = 4;
 
   private static int[][] rotateInPlace(int[][] data) {
     for (int i = 0; i < N / 2; i++)
